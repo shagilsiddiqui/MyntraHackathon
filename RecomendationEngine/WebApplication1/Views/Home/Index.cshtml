@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Products List";
+}
+
+<div class="row">
+    <div class="col-md-6" style="border-right: 1px dashed #333;">
+        <h2 style="margin-bottom: 0px;">Top Trending</h2>
+        <h3 style="margin-top: 0px; color: #808080">in @ViewBag.CurrentProduct</h3>
+
+        <form action="~/Home/Index/">
+            <label for="products">Choose a product</label>
+
+            <select name="products" id="products">
+                <option value="T-Shirts">T-Shirts</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Jeans">Jeans</option>
+                <option value="Jackets">Jackets</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+        <br />
+        <br />
+
+        <ol>
+            @foreach (var product in ViewBag.Products)
+            {
+                <li>
+                    <div style="border-radius: 15px; border: 1px solid #808080; padding: 20px; margin: 20px;">
+                        <span class="badge">Hackermen value @product.totalValue</span>
+                        <br />
+                        <p><strong>#@product.internalRank on @product.website (Website ranking: @product.websiteTraffic)</strong></p>
+                        <img src=@product.imageLink style="max-width:500px; height:auto;">
+                    </div>
+                </li>
+            }
+        </ol>
+
+        <br />
+    </div>
+
+    <div class="col-md-6">
+        <h2 style="margin-bottom: 0px;">Top Upcoming</h2>
+        <h3 style="margin-top: 0px; color: #808080">inspired by celebrities</h3>
+        <br />
+        <br />
+        <ol>
+            @foreach (var design in ViewBag.Designs)
+            {
+                <li>
+                    <div style="border-radius: 15px; border: 1px solid #808080; padding: 20px; margin: 20px;">
+                        <p><strong>@design.message</strong></p>
+                        <img src=@design.imageLink style="max-width:450px; height:auto;">
+                    </div>
+                </li>
+            }
+        </ol>
+    </div>
+</div>
