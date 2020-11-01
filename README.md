@@ -39,8 +39,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 A 'pain' for every business- Sales Return Sales return are incurred commonly and 'uninvitedly' when the product displayed online and the one delivered in real are compared and a clear disparity between the both comes into picture. It is said, Nothing deflates faster than a punctured reputation and the disparity mentioned above slaps 'irreversible' blemishes on any brand's reputation.
 Here is, when AR and VR emerges as a helping hand to bridge the disparity between both worlds viz. Digital and Real.
 
