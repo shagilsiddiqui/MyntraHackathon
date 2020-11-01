@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Images/Myntra_logo.png" alt="Logo" width="80" height="80">
+    <img src="Images/Myntra_logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h2 align="center">Project MARS</h2>
@@ -61,9 +61,12 @@ customers, it leads to a bad shopping experience as they might have to return th
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-
+## ScreenShots
+<img src="Screenshot_2020-10-31-22-15-08-98_42d40205deec5e8ab1d13ef61f49d24f.jpg" alt="Logo" >
+<img src="Screenshot_2020-10-31-22-15-36-56_42d40205deec5e8ab1d13ef61f49d24f.jpg" alt="Logo" >
+<img src="Screenshot_2020-10-31-22-17-19-49_42d40205deec5e8ab1d13ef61f49d24f.jpg" alt="Logo" >
+<img src ="WhatsApp Image 2020-11-01 at 12.03.03 AM.jpeg" >
+<img src="res.png" alt="Logo" >
 
 
 
